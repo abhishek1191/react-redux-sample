@@ -1,18 +1,19 @@
 {
-  "name": "pluralsight-redux-starter",
+  "name": "react-redux-sample",
   "version": "1.0.0",
-  "description": "Starter kit for React and Redux Pluralsight course by Cory House",
-  "author": "Cory House",
+  "description": "Sample React Redux Application",
+  "author": "",
   "license": "MIT",
-  "scripts" : {
-    "start" : "npm-run-all --parallel open:src lint",
-    "open:src" : "babel-node tools/srcServer.js",
-    "lint" : "node_modules/.bin/esw webpack.config.* src tools"
+  "scripts": {
+    "start": "npm-run-all --parallel open:src lint",
+    "open:src": "babel-node tools/srcServer.js",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools"
   },
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
     "jquery": "2.2.3",
+    "js-cookie": "^2.1.4",
     "react": "15.0.2",
     "react-dom": "15.0.2",
     "react-redux": "4.4.5",
@@ -59,9 +60,5 @@
     "webpack": "1.13.0",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/coryhouse/pluralsight-redux-starter"
   }
 }

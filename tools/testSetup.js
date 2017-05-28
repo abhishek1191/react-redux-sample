@@ -1,6 +1,3 @@
-/**
- * Created by Abhishek on 7/31/2016.
- */
 
 // This file is written in ES5 since it's not transpiled by Babel.
 // This file does the following:

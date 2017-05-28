@@ -12,3 +12,11 @@ a.active{
   margin: 0 auto;
   color: #4d4d4d;
 }
+
+.padding-normal{
+  padding: 10px ;
+}
+
+.list-style{
+  list-style: none;
+}

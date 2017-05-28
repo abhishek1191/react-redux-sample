@@ -11,10 +11,12 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
 import {Provider} from 'react-redux';
 import configureStore from "./store/configureStore";
-import {loadCourses} from './actions/courseActions';
 
-const store = configureStore();
-store.dispatch(loadCourses());
+let initialState = {
+    user:null
+};
+const store = configureStore(initialState);
+//store.dispatch(loadCourses());
 
 render(
   <Provider store={store}>
